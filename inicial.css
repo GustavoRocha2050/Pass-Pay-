@@ -1,0 +1,49 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+body{
+    background: #F5F5F5;
+    color: #1C1C1C;
+}
+section{
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.home-text h1{
+	margin: 12px 0 25px 0;
+	font-size: 4.5rem;
+    align-items: center;
+    text-align: center;
+}
+.services-itens{
+    display: grid; 
+    grid-gap: 2rem;
+    align-items: center;
+    text-align: center;
+}
+.service-item{
+    padding: 50px;
+    transition: ease .50s;
+    cursor: pointer;
+}
+.service-item h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.service-item p{
+    font-size: 1.2rem;
+    color:  #708090;
+}
+.service-item:hover{
+    background: #FFF;
+    box-shadow: 100px, 0 90px 0 rgb(10 10 70 / 10%);
+    border-radius: 12px;
+    will-change: transform;
+    transform: perspective(1000px) rotateX(4.80deg) rotateY(10.2deg) scale3d(1.0, 1.0, 1.0);
+}
+
